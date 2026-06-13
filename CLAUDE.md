@@ -1,11 +1,32 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [CLAUDE.md](#claudemd)
+  - [Coding Standards](#coding-standards)
+  - [🚨 CRITICAL: Documentation Update Protocol](#-critical-documentation-update-protocol)
+  - [Canonical Source for Agent Instructions](#canonical-source-for-agent-instructions)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- file: CLAUDE.md -->
-<!-- version: 2.2.0 -->
+<!-- version: 2.3.0 -->
 <!-- guid: 3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f -->
+<!-- last-edited: 2026-06-13 -->
 
 # CLAUDE.md
 
 > **NOTE:** This file is a pointer. All Claude/AI agent and workflow instructions are now
 > centralized in the `.github/instructions/` and `.github/prompts/` directories.
+
+## Coding Standards
+
+Org-wide coding standards are in the `.standards/` git submodule (cloned from `https://github.com/falkcorp/.github`).
+Always clone with `git clone --recurse-submodules` so these are available.
+
+Key files:
+- **File headers (MANDATORY):** `.standards/instructions/file-headers.md`
+- **Commit format:** `.standards/instructions/commit-messages.md`
 
 ## 🚨 CRITICAL: Documentation Update Protocol
 
