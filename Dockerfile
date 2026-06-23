@@ -1,5 +1,5 @@
 # --- Stage 1: Minimal Image Using Official Go Alpine Base ---
-FROM golang:1.24-alpine AS final
+FROM golang:1.26-alpine AS final
 
 # Set build argument for multi-arch support
 ARG TARGETOS
