@@ -10,3 +10,8 @@
 # Generated files
 workflow-permissions-analysis.json
 **/processed/*.json
+
+# Changelog fragments (partial Markdown assembled into CHANGELOG.md)
+changelog.d/*.md
+changelog.d/templates/**
+!changelog.d/README.md
