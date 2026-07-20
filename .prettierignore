@@ -15,3 +15,8 @@ workflow-permissions-analysis.json
 changelog.d/*.md
 changelog.d/templates/**
 !changelog.d/README.md
+
+# TODO fragments are partial Markdown assembled into TODO.md; keep the README.
+todo.d/*.md
+todo.d/templates/**
+!todo.d/README.md
