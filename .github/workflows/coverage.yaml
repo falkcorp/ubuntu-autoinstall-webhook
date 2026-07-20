@@ -26,19 +26,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
-      - name: Setup Node.js environment
-        uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a # v4.2.0
-        with:
-          node-version: "lts/*"
-          check-latest: true
-          cache: "npm"
-          cache-dependency-path: |
-            viewer-app/package-lock.json
-            viewer-app/package.json
-      - run: npm install --prefix viewer-app
-      - run: npm ci --prefix viewer-app
-      - run: npm run build --prefix viewer-app
-
       - name: Set up Go
         uses: actions/setup-go@f111f3307d8850f501ac008e886eec1fd1932a34 # v5.3.0
         with:
@@ -46,8 +33,6 @@ jobs:
           cache: true
           cache-dependency-path: |
             "**/*.sum"
-            viewer-app/package-lock.json
-            viewer-app/package.json
 
       - name: Install Dependencies
         run: go mod tidy
