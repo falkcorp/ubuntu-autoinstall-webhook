@@ -1,18 +1,24 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- file: README.md -->
+<!-- version: 2.0.0 -->
+<!-- guid: 4a7f1c92-3e58-4d0b-9c16-8b2d5e0f7a41 -->
+<!-- last-edited: 2026-07-20 -->
 
-- [ubuntu-autoinstall](#ubuntu-autoinstall)
-  - [Build](#build)
+# ubuntu-autoinstall-webhook — ARCHIVED
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+> **This repository is archived and no longer maintained.**
+>
+> Its functionality has been **superseded by the agent**,
+> [`ubuntu-autoinstall-agent`](https://github.com/jdfalk/ubuntu-autoinstall-agent)
+> — a comprehensive Ubuntu Server auto-installer with ZFS encryption and error
+> recovery that absorbs the auto-install reporting this webhook handled.
+>
+> Please use `ubuntu-autoinstall-agent` for all new work. This repository remains
+> read-only for historical reference only; issues and pull requests are closed.
 
-# ubuntu-autoinstall
+---
 
-[![Build, Release, and Attest](https://github.com/jdfalk/ubuntu-autoinstall-webhook/actions/workflows/release.yaml/badge.svg)](https://github.com/jdfalk/ubuntu-autoinstall-webhook/actions/workflows/release.yaml)
-[![CodeQL](https://github.com/jdfalk/ubuntu-autoinstall-webhook/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/jdfalk/ubuntu-autoinstall-webhook/actions/workflows/github-code-scanning/codeql)
-[![Nightly Build and Publish](https://github.com/jdfalk/ubuntu-autoinstall-webhook/actions/workflows/nightly.yaml/badge.svg)](https://github.com/jdfalk/ubuntu-autoinstall-webhook/actions/workflows/nightly.yaml)
-
-A simple golang application to process ubuntu auto install reporting events
+A simple Go application to process Ubuntu auto-install reporting events.
+Retained below for historical context.
 
 ## Build
 
